@@ -10,3 +10,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 }
+
+fun main(args : Array<String>){
+    println("hello kotlin !")
+    var a = 33
+    a = "2222"
+}
+
+
+internal class Person(var name: String?)
